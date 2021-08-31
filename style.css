@@ -1,0 +1,142 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', serif
+}
+.menu-logo{
+    margin-bottom: 50px;
+}
+.profile-photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.main-content{
+    margin:0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.social-icons{
+    margin: 30px 0;
+    margin-bottom: 100px; 
+}
+.social-icons .twitter{
+    padding: 0 20px;
+}
+.about-me{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+}
+.about-title,
+.about-content{
+    width: 50%;
+}
+.chat-now{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 100px;
+}
+.text-center{
+    text-align: center;
+}
+.margin{
+    margin: 7px 0;
+}
+.one{
+    font-size: 50px;
+    font-weight: 900;
+}
+.design-paragraph{
+    font-weight: 900;
+    font-size: 50px;
+}
+.view-portfolio{
+    margin-bottom: 100px;
+}
+.row{
+    background-color: black;
+    display: flex;
+    
+}
+.portfolio-area{
+    height: 300px;
+    width: 290px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 30px;
+    display :flex;
+    justify-content :flex-start;
+}
+.portfolio-area .abstract2 .abstract5{
+    padding: 50px; 
+}
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+.button-section button{
+    background: black;
+    padding: 20px 70px;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+}
+.sign-ature{
+    width: 150px;
+    height: 100px;
+}
+.summary-area{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.about-summary,
+.summary-content{
+    width: 50%;
+}
+.end-content{
+    margin:0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.call-now{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.info-photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.divider{
+    background: white;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sample-text{
+    width: 200px;
+}
+.footer-text{
+    margin-bottom: 100px;
+}
+.footer{
+    background-color: grey;
+    padding: 50px;
+    text-align: center;
+    margin-top: 90px;
+}
